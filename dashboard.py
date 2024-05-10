@@ -48,7 +48,7 @@ def get_Buckets():
 
 # The app will show the blended cost of the running ec2 instances and s3 buckets
 @app.get("/CostExplorer")
-def get_cost():
+def get_CostExplorer():
     costs = boto3.client('ce')
     
     response = costs.client.get_cost_and_usage(
