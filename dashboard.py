@@ -7,7 +7,7 @@ import boto3
 ###Note
 #The HTML file has to be called dashboad
 app = FastAPI()
-templates = Jinja2Templates(directory ="/Users/shaikim/Desktop/cloud_projects/AWS")
+templates = Jinja2Templates(directory ="/home/ubuntu/FastAPI_Dashboard")
 
 # The app will send a request to the dashboard.html
 @app.get("/")
