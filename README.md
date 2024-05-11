@@ -38,7 +38,7 @@ Enable to do this project you must have the follwoing installed and configured:
 6. Edit the Infra.tf file to meet your needs
 7. In the terminal, run `Terraform init` to initilaize Terraform
 8. Next, run `Terraform plan` to check what resources will be built
-9. Lastly, run `Terraform Apply` to deploy the infrastructure
+9. Lastly, run `Terraform apply` to deploy the infrastructure
 
 ###Setting up the ec2 Instance
 Once our infastructure is built, do the following:
@@ -55,7 +55,7 @@ https://github.com/Shaitown904/FastAPI_Dashboard/assets/155275814/11d12555-0e2c-
 9. Next, in the vim editor type:
    server {
     listen 80;   
-    server_name #place your ec2 ip public address here;    
+    server_name #place your ec2 public ip  address here;    
     location / {        
         proxy_pass http://127.0.0.1:8000;    
     }
