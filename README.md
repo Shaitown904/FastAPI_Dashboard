@@ -20,8 +20,7 @@ This project involves the use of several technologies such as Terraform for IaC(
 
 # Architecture Diagram
 ![FastAPI AWS DIagram (1)](https://github.com/Shaitown904/FastAPI_Dashboard/assets/155275814/da4034f3-54c7-4371-aad2-f93e8969f52f)
-
-
+The Diagram represents a client making a http request to the ec2 instance hosting the web app.
 
 # Demo of completed project
 https://github.com/Shaitown904/FastAPI_Dashboard/assets/155275814/82b7976c-9d67-4ab8-a8a6-4ae612ca098a
