@@ -3,8 +3,8 @@ This repository is for the AWS FastAPI dashboard
 
 # Table of Contents
 - [Project Objectives]
--[Project Overview/Features]
--[Architecture Diagram]
+- [Project Overview/Features]
+- [Architecture Diagram]
 - [Prerequisites]
 - [Getting Started]
 - [Project Steps]
