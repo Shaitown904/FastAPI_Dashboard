@@ -7,7 +7,8 @@ This repository is for the AWS FastAPI dashboard
 -[Architecture Diagram]
 - [Prerequisites]
 - [Getting Started]
-- [Project Structure/demo]
+- [Project Steps]
+- [Demo of completed project]
 - [Key Findings/Lessons Learned]
 - [Contributors]
 
@@ -17,4 +18,11 @@ In this project I sought out to create a web app that monitors and retives the c
 # Project Overview/Features
 This project involves the use of several technologies such as Terraform for IaC(Infastructure-as-Code). AWS services such as ec2, s3, and VPC. Python libaries such as boto3(AWS SDK), FastAPI, and FastAPI templates such as Jinja2Templates. NGINX for the web app hosting. Lastly, I used Html to build the dashboard template for Jinja2. 
 
+# Architecture Diagram
+![FastAPI AWS DIagram (1)](https://github.com/Shaitown904/FastAPI_Dashboard/assets/155275814/da4034f3-54c7-4371-aad2-f93e8969f52f)
+
+
+
+# Demo of completed project
+https://github.com/Shaitown904/FastAPI_Dashboard/assets/155275814/82b7976c-9d67-4ab8-a8a6-4ae612ca098a
 
