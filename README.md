@@ -52,6 +52,7 @@ https://github.com/Shaitown904/FastAPI_Dashboard/assets/155275814/11d12555-0e2c-
 7. Next, run `sudo apt install -y python3 nginx` to install NGINX
 8. Next, run the command `sudo vim /etc/nginx/sites-enabled/fastapi_nginx`(This will allow us to configure NGINX to run our app on the server by routing the local host traffic to the ec2 ip address.)
 9. Next, in the vim editor type:
+    
    server {
     listen 80;   
     server_name #place your ec2 public ip  address here;    
@@ -59,13 +60,14 @@ https://github.com/Shaitown904/FastAPI_Dashboard/assets/155275814/11d12555-0e2c-
         proxy_pass http://127.0.0.1:8000;    
     }
 }
-10. Run `sudo service nginx restart`
-11. Run the command `git clone https://github.com/Shaitown904/FastAPI_Dashboard/` to clone repository files to ec2 instance
-12. Run `python3 -m venv .venv`
-13. Run `source .venv/bin/activate`
-14. Run `python3 -m pip install -r requirements.txt` ####Note if you skip the previous two steps you will get an error depending on which OS you are using
-15. Run `python3 -m uvicorn dashboard:app`
-16. Lastly, visit http://your_ec2_ip_address.com
+
+11. Run `sudo service nginx restart`
+12. Run the command `git clone https://github.com/Shaitown904/FastAPI_Dashboard/` to clone repository files to ec2 instance
+13. Run `python3 -m venv .venv`
+14. Run `source .venv/bin/activate`
+15. Run `python3 -m pip install -r requirements.txt` ####Note if you skip the previous two steps you will get an error depending on which OS you are using
+16. Run `python3 -m uvicorn dashboard:app`
+17. Lastly, visit http://your_ec2_ip_address.com
    
 
 # Demo of completed project
