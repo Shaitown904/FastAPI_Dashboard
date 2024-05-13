@@ -8,7 +8,6 @@ This repository is for the AWS FastAPI dashboard
 - [Prerequisites]
 - [Project Steps]
 - [Demo of completed project]
-- [Key Findings/Lessons Learned]
 - [Contributors]
 
 # Project Objectives
@@ -71,4 +70,7 @@ https://github.com/Shaitown904/FastAPI_Dashboard/assets/155275814/11d12555-0e2c-
 
 # Demo of completed project
 https://github.com/Shaitown904/FastAPI_Dashboard/assets/155275814/82b7976c-9d67-4ab8-a8a6-4ae612ca098a
+
+# Contibuters
+Shaitown904
 
